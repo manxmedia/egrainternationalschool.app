@@ -8,7 +8,7 @@ $black: #1b212c;
 $darken: #4a5562;
 
 $primary: #167ce9;
-$secondary: #ffc300;
+$secondary: #000066;
 
 
 @mixin gradient-background(){
@@ -19,7 +19,7 @@ $secondary: #ffc300;
 	background: -o-linear-gradient(left, rgba(106,0,255,1) 0%, rgba(255,217,0,1) 100%);
 	background: -ms-linear-gradient(left, rgba(106,0,255,1) 0%, rgba(255,217,0,1) 100%);
 	background: linear-gradient(to right, rgba(106,0,255,1) 0%, rgba(255,217,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a00ff', endColorstr='#ffd900', GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000066', endColorstr='#54b2fe', GradientType=1 );
 }
 
 @mixin border-radius($radius) {
